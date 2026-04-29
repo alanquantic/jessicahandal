@@ -1,0 +1,51 @@
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+}
+
+:root {
+  --ast-global-color-0: #6369d1;
+  --ast-global-color-1: #1d1f45;
+  --ast-global-color-2: #1d1f45;
+  --ast-global-color-3: #3d3d4e;
+  --ast-global-color-4: #f2f3fa;
+  --ast-global-color-5: #ffffff;
+  --ast-global-color-6: #66d7d1;
+  --ast-global-color-7: #76778b;
+  --ast-global-color-8: #5258ca;
+  --ast-code-block-background: #eeeeee;
+  --ast-comment-inputs-background: #fafafa;
+  --ast-normal-container-width: 1200px;
+}
+
+body.elementor-kit-277 h1,
+body.elementor-kit-277 h2,
+body.elementor-kit-277 h3,
+body.elementor-kit-277 h4,
+body.elementor-kit-277 h5,
+body.elementor-kit-277 h6,
+body.elementor-kit-277 .entry-content :where(h1, h2, h3, h4, h5, h6) {
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+#root {
+  overflow-x: clip;
+}
+
+.woocommerce-product-gallery {
+  opacity: 1 !important;
+}
+
+.woocommerce-product-gallery img,
+.elementor-widget-woocommerce-product-images img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

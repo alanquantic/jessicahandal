@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5174/)",
+      "Bash(curl -o fa-solid-900.woff2 \"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff2\")",
+      "Bash(powershell *)",
+      "WebFetch(domain:jessicahandal.com)",
+      "Bash(curl -s \"https://jessicahandal.com/\")",
+      "Bash(curl -s \"https://jessicahandal.com/wp-content/uploads/elementor/google-fonts/css/roboto.css\")",
+      "Bash(curl -s \"https://jessicahandal.com/wp-content/uploads/elementor/google-fonts/css/robotoslab.css\")",
+      "Bash(curl -s \"https://jessicahandal.com/wp-content/uploads/elementor/google-fonts/css/sourcesanspro.css\")",
+      "Bash(grep -v \"^$\")",
+      "Bash(curl *)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
